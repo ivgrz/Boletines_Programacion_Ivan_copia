@@ -1,3 +1,6 @@
+## Boletín 9 - Exercicio 3
+
+
 class Consumo:
     def __init__(self, km=0.0, litros=0.0, vMed=0.0, pGas=0.0):
 
@@ -27,6 +30,11 @@ class Consumo:
 
     def setvMed(self, vMed):
         self.vMed = vMed
+
+    def setpGas(self, pGas):
+        self.pGas = pGas
+
+
 
 
 if __name__ == "__main__":
