@@ -33,7 +33,9 @@ class Consumo:
 
     def setpGas(self, pGas):
         self.pGas = pGas
-
+    def __str__(self):
+        return (f"Kilómetros: {self.km}, Litros: {self.litros}, "
+                f"Velocidad media: {self.vMed}, Precio gasolina: {self.pGas}")
 
 
 
